@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="293.13559322033905" y="236.57627118644075">utils.AESUtils</node>
+    <node x="0.0" y="390.0">learning_algorithm.LearningParadigm</node>
+    <node x="36.0" y="79.0">Chaos.LFSR.LFSR</node>
+    <node x="233.0" y="543.0">ExchangeKeyClient</node>
+    <node x="192.0" y="390.0">tree_parity_machine.TreeParityMachineEve</node>
+    <node x="59.0" y="311.0">learning_algorithm.Training</node>
+    <node x="422.2881355932203" y="235.4406779661017">utils.Random</node>
+    <node x="385.9545454545455" y="158.0">tree_parity_machine.neuron.HiddenNeuron</node>
+    <node x="20.0" y="464.0">utils.KeyGeneration</node>
+    <node x="537.1355932203389" y="235.44067796610176">tree_parity_machine.InputUnmatchException</node>
+    <node x="478.0" y="543.0">ExchangeKey</node>
+    <node x="697.9545454545455" y="158.0">tree_parity_machine.layer.HiddenLayer</node>
+    <node x="612.0" y="390.0">Chaos.Logistical</node>
+    <node x="8.0" y="237.0">Chaos.LFSR.OptimalTaps</node>
+    <node x="452.0" y="390.0">Chaos.QueueWithGeo</node>
+    <node x="556.0" y="311.0">Chaos.Chaos</node>
+    <node x="138.5" y="79.0">utils.ObtainParameter</node>
+    <node x="458.0" y="464.0">utils.SocketConnection</node>
+    <node x="211.95454545454547" y="0.0">tree_parity_machine.TreeParityMachine</node>
+    <node x="0.0" y="158.0">Chaos.LFSR.LFSRSimulator</node>
+    <node x="154.79661016949154" y="236.5762711864407">Excel.ExcelUtils</node>
+    <node x="545.9545454545455" y="158.0">tree_parity_machine.layer.OutputLayer</node>
+    <node x="627.7272727272727" y="79.0">tree_parity_machine.layer.NetLayer</node>
+    <node x="0.0" y="543.0">tree_parity_machine.NeuralNetException</node>
+    <node x="257.0" y="464.0">utils.SensorUtils</node>
+    <node x="322.5" y="79.0">tree_parity_machine.neuron.Neuron</node>
+    <node x="283.0" y="311.0">learning_algorithm.TPMTrainer</node>
+    <node x="225.95454545454547" y="158.0">tree_parity_machine.neuron.OutputNeuron</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tree_parity_machine.layer.NetLayer" target="tree_parity_machine.TreeParityMachine">
+      <point x="0.0" y="-14.5" />
+      <point x="681.7272727272727" y="49.0" />
+      <point x="369.4545454545455" y="49.0" />
+      <point x="67.5" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.neuron.HiddenNeuron" target="tree_parity_machine.neuron.Neuron">
+      <point x="0.0" y="-14.5" />
+      <point x="455.9545454545455" y="133.0" />
+      <point x="391.5" y="133.0" />
+      <point x="23.0" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.layer.HiddenLayer" target="tree_parity_machine.layer.NetLayer">
+      <point x="0.0" y="-14.5" />
+      <point x="763.9545454545455" y="133.0" />
+      <point x="708.7272727272727" y="133.0" />
+      <point x="27.0" y="14.5" />
+    </edge>
+    <edge source="utils.ObtainParameter" target="tree_parity_machine.TreeParityMachine">
+      <point x="0.0" y="-14.5" />
+      <point x="220.5" y="59.0" />
+      <point x="279.4545454545455" y="59.0" />
+      <point x="-22.5" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.layer.OutputLayer" target="tree_parity_machine.layer.NetLayer">
+      <point x="0.0" y="-14.5" />
+      <point x="611.9545454545455" y="133.0" />
+      <point x="654.7272727272727" y="133.0" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.TreeParityMachineEve" target="learning_algorithm.TPMTrainer">
+      <point x="51.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Chaos.LFSR.LFSR" target="tree_parity_machine.TreeParityMachine">
+      <point x="0.0" y="-14.5" />
+      <point x="74.0" y="49.0" />
+      <point x="234.45454545454547" y="49.0" />
+      <point x="-67.5" y="14.5" />
+    </edge>
+    <edge source="Chaos.QueueWithGeo" target="Chaos.Chaos">
+      <point x="0.0" y="-14.5" />
+      <point x="522.0" y="365.0" />
+      <point x="577.0" y="365.0" />
+      <point x="-21.0" y="14.5" />
+    </edge>
+    <edge source="Chaos.Logistical" target="Chaos.Chaos">
+      <point x="0.0" y="-14.5" />
+      <point x="674.0" y="365.0" />
+      <point x="619.0" y="365.0" />
+      <point x="21.0" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.neuron.Neuron" target="tree_parity_machine.TreeParityMachine">
+      <point x="0.0" y="-14.5" />
+      <point x="368.5" y="59.0" />
+      <point x="324.4545454545455" y="59.0" />
+      <point x="22.5" y="14.5" />
+    </edge>
+    <edge source="ExchangeKeyClient" target="utils.SensorUtils">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Chaos.LFSR.OptimalTaps" target="Chaos.LFSR.LFSRSimulator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.NeuralNetException" target="utils.KeyGeneration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ExchangeKey" target="utils.SocketConnection">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Chaos.LFSR.LFSRSimulator" target="Chaos.LFSR.LFSR">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.neuron.OutputNeuron" target="tree_parity_machine.neuron.Neuron">
+      <point x="0.0" y="-14.5" />
+      <point x="295.9545454545455" y="133.0" />
+      <point x="345.5" y="133.0" />
+      <point x="-23.0" y="14.5" />
+    </edge>
+    <edge source="learning_algorithm.LearningParadigm" target="learning_algorithm.Training">
+      <point x="0.0" y="-14.5" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="tree_parity_machine.TreeParityMachineEve" target="learning_algorithm.Training">
+      <point x="-51.0" y="-14.5" />
+      <point x="243.0" y="365.0" />
+      <point x="140.0" y="365.0" />
+      <point x="27.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8805970149253731" x="586.0762711864406" y="382.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
